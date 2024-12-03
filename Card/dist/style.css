@@ -1,0 +1,48 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: system-ui;
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.card-container {
+  max-width: 90ch;
+  position: relative;
+  border: thin #414141 solid;
+  display: inline-block;
+  border-radius: 5%;
+  position: relative;
+  text-align: center;
+}
+
+.card-figure img {
+  display: block;
+  width: 100%;
+  border-radius: 10%;
+}
+
+.card-figure figcaption {
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin-top: -5em;
+  color: aliceblue;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.card-container h2 {
+  margin-top: 5rem;
+}
